@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* for google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+/* custom styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #6a6a8e;
+}
+
+/* custom components */
+@layer components {
+    .btn-1 {
+        @apply font-medium text-white rounded-full px-6 py-3 overflow-hidden;
+        background: linear-gradient(to right,#673AB7 0,#2196F3 100%);
+        box-shadow: 0 10px 15px 0 rgb(56 0 189 / 20%);
+    }
+}
+
+/* custom utilities */
+@layer utilities {
+    .text-blue {
+        color: #050748;
+    }
+    .text-pink {
+        color: #e60072;
+    }
+}

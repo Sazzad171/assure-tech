@@ -1,9 +1,16 @@
-import  "./assets/css/index.css"
+// main css
+import  "./assets/css/index.css";
+
+// components
+import Header from './layout/Header';
+import Footer from './layout/Footer';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="underline font-extrabold">heading</h1>
+      <Header />
+
+      <Footer />
     </div>
   );
 }
