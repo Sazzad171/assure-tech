@@ -1,7 +1,16 @@
-import React from 'react'
+import React from 'react';
+
+// section components
+import Banner from './BannerSection';
+import AboutSection from './AboutSection';
+import ServiceSection from './ServiceSection';
 
 export default function Index() {
   return (
-    <div>Index</div>
+    <>
+      <Banner />
+      <AboutSection />
+      <ServiceSection />
+    </>
   )
 }

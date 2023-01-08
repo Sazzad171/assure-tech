@@ -5,7 +5,7 @@ export default function Index() {
     <footer>
         {/* footer top */}
         <div className="pt-12 pb-12 bg-gray-50">
-            <div className="container max-w-7xl mx-auto">
+            <div className="container max-w-7xl mx-auto px-2">
                 <div className="grid grid-cols-[1fr_1fr_1fr_1fr] items-center gap-5">
                     <div>
                         <h3 className="text-2xl font-medium">Assure Tech BD.</h3>

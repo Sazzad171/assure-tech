@@ -4,14 +4,20 @@ import  "./assets/css/index.css";
 // components
 import Header from './layout/Header';
 import Footer from './layout/Footer';
+import Index from "./pages/home/Index";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
 
+      {/* pages */}
+      <main>
+        <Index />
+      </main>
+
       <Footer />
-    </div>
+    </>
   );
 }
 
