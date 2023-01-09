@@ -4,6 +4,7 @@ import React from 'react';
 import Banner from './BannerSection';
 import AboutSection from './AboutSection';
 import ServiceSection from './ServiceSection';
+import CounterSection from './CounterSection';
 
 export default function Index() {
   return (
@@ -11,6 +12,7 @@ export default function Index() {
       <Banner />
       <AboutSection />
       <ServiceSection />
+      <CounterSection />
     </>
   )
 }
