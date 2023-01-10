@@ -69,3 +69,6 @@ body {
 .home-service .card {
     background: url('../img/home/service-card-bg.png') top right no-repeat #fff;
 }
+.home-product::before {
+    background: url('../img/home/product-dot-pattern.png');
+}
