@@ -5,6 +5,7 @@ import Banner from './BannerSection';
 import AboutSection from './AboutSection';
 import ServiceSection from './ServiceSection';
 import CounterSection from './CounterSection';
+import ProductSection from './ProductSection';
 
 export default function Index() {
   return (
@@ -13,6 +14,7 @@ export default function Index() {
       <AboutSection />
       <ServiceSection />
       <CounterSection />
+      <ProductSection />
     </>
   )
 }
