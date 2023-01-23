@@ -7,6 +7,8 @@ import ServiceSection from './ServiceSection';
 import CounterSection from './CounterSection';
 import ProductSection from './ProductSection';
 import IndustriesSection from './IndustriesSection';
+import Testimonial from './Testimonial';
+import BottomBannerSection from './BottomBannerSection';
 
 export default function Index() {
   return (
@@ -17,6 +19,8 @@ export default function Index() {
       <CounterSection />
       <ProductSection />
       <IndustriesSection />
+      <Testimonial />
+      <BottomBannerSection />
     </>
   )
 }
