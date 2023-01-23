@@ -4,7 +4,7 @@ import  "./assets/css/index.css";
 // components
 import Header from './layout/Header';
 import Footer from './layout/Footer';
-import Index from "./pages/home/Index";
+import Home from "./pages/home/Index";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
 
       {/* pages */}
       <main>
-        <Index />
+        <Home />
       </main>
 
       <Footer />
