@@ -5,6 +5,8 @@ import  "./assets/css/index.css";
 import Header from './layout/Header';
 import Footer from './layout/Footer';
 import Home from "./pages/home/Index";
+// import About from "./pages/about/Index";
+// import Services from "./pages/services/Index";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       {/* pages */}
       <main>
         <Home />
+        {/* <About /> */}
+        {/* <Services /> */}
       </main>
 
       <Footer />
