@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Index() {
   return (
@@ -11,13 +12,13 @@ export default function Index() {
                 <div>
                 <ul className='text-right'>
                     <li className="inline-block">
-                        <a href="#fsd" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>Home</a>
+                        <Link to="/" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>Home</Link>
                     </li>
                     <li className="inline-block">
-                        <a href="#fsd" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>About</a>
+                        <Link to="/about" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>About</Link>
                     </li>
                     <li className="inline-block">
-                        <a href="#fsd" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>Services</a>
+                        <Link to="/services" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>Services</Link>
                     </li>
                     <li className="inline-block">
                         <a href="#fsd" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>Products</a>
