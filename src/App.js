@@ -9,6 +9,7 @@ import Footer from './layout/Footer';
 import Home from "./pages/home/Index";
 import About from "./pages/about/Index";
 import Services from "./pages/services/Index";
+import Products from "./pages/products/Index";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
 
           {/* service route */}
           <Route path="/services" element={ <Services /> } />
+
+          {/* service route */}
+          <Route path="/products" element={ <Products /> } />
 
         </Routes>
       </main>
