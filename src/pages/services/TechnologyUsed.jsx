@@ -14,25 +14,25 @@ export default function TechnologyUsed() {
     <section className="pt-16 pb-16 bg-slate-100">
       <div className="container max-w-4xl mx-auto px-2">
         <div className="grid grid-cols-7 gap-8 items-center">
-          <div className='flex items-center h-full bg-white rounded-full p-6 shadow-lg'>
+          <div className='flex items-center h-full bg-white rounded-full px-6 py-5 shadow-lg border-4 border-solid border-white hover:border-zinc-200'>
             <img src={Technology1} alt="technology img" className='w-100 h-auto' />
           </div>
-          <div className='flex items-center h-full  bg-white rounded-full p-6 shadow-lg'>
+          <div className='flex items-center h-full bg-white rounded-full px-6 py-5 shadow-lg border-4 border-solid border-white hover:border-zinc-200'>
             <img src={Technology2} alt="technology img" className='w-100 h-auto' />
           </div>
-          <div className='flex items-center h-full  bg-white rounded-full p-6 shadow-lg'>
+          <div className='flex items-center h-full bg-white rounded-full px-6 py-5 shadow-lg border-4 border-solid border-white hover:border-zinc-200'>
             <img src={Technology3} alt="technology img" className='w-100 h-auto' />
           </div>
-          <div className='flex items-center h-full  bg-white rounded-full p-6 shadow-lg'>
+          <div className='flex items-center h-full bg-white rounded-full px-6 py-5 shadow-lg border-4 border-solid border-white hover:border-zinc-200'>
             <img src={Technology4} alt="technology img" className='w-100 h-auto' />
           </div>
-          <div className='flex items-center h-full  bg-white rounded-full p-6 shadow-lg'>
+          <div className='flex items-center h-full bg-white rounded-full px-6 py-5 shadow-lg border-4 border-solid border-white hover:border-zinc-200'>
             <img src={Technology5} alt="technology img" className='w-100 h-auto' />
           </div>
-          <div className='flex items-center h-full  bg-white rounded-full p-6 shadow-lg'>
+          <div className='flex items-center h-full bg-white rounded-full px-6 py-5 shadow-lg border-4 border-solid border-white hover:border-zinc-200'>
             <img src={Technology6} alt="technology img" className='w-100 h-auto' />
           </div>
-          <div className='flex items-center h-full  bg-white rounded-full p-6 shadow-lg'>
+          <div className='flex items-center h-full bg-white rounded-full px-6 py-5 shadow-lg border-4 border-solid border-white hover:border-zinc-200'>
             <img src={Technology7} alt="technology img" className='w-100 h-auto' />
           </div>
         </div>
