@@ -24,10 +24,10 @@ export default function Index() {
                         <Link to="/products" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>Products</Link>
                     </li>
                     <li className="inline-block">
-                        <a href="#fsd" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>Blogs</a>
+                        <Link to="/blogs" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>Blogs</Link>
                     </li>
                     <li className="inline-block">
-                        <a href="#fsd" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>Contact</a>
+                        <Link to="/contact" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>Contact</Link>
                     </li>
                     <li className="inline-block">
                         <a href="#fsd" className='btn btn-1 ml-4 flex items-center'>
