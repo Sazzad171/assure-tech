@@ -1,7 +1,14 @@
-import React from 'react'
+import React from 'react';
+import AllBlogs from './AllBlogs';
+import BannerSection from './BannerSection';
+import BottomBannerSection from './BottomBannerSection';
 
 export default function Index() {
   return (
-    <div>Index</div>
+    <>
+      <BannerSection />
+      <AllBlogs />
+      <BottomBannerSection />
+    </>
   )
 }
