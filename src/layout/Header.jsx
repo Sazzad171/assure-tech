@@ -21,7 +21,7 @@ export default function Index() {
                         <Link to="/services" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>Services</Link>
                     </li>
                     <li className="inline-block">
-                        <a href="/products" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>Products</a>
+                        <Link to="/products" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>Products</Link>
                     </li>
                     <li className="inline-block">
                         <a href="#fsd" className='font-poppins font-medium px-3 py-2 text-blue uppercase'>Blogs</a>
