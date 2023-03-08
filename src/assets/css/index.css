@@ -75,3 +75,8 @@ body {
 .home-testimonial {
     background-image: url('../img/home/testimonial-bg.png');
 }
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
