@@ -1,6 +1,13 @@
 import React from "react";
 
 export default function ContactArea() {
+
+	const handleSubmitForm = (e) => {
+		e.preventDefault();
+
+		alert("Working is going on!");
+	}
+
 	return (
 		<section className="pt-20 pb-20">
 			<div className="container max-w-6xl mx-auto px-2">
@@ -27,7 +34,7 @@ export default function ContactArea() {
 								</svg>
 								<div>
 									<h5 className="text-xl font-semibold mb-1">Email</h5>
-									<a href="#ds">info@test.com</a>
+									<a href="mailto:assuretechbd@gmail.com">assuretechbd@gmail.com</a>
 								</div>
 							</li>
 							<li className="flex gap-4 mb-6">
@@ -47,7 +54,7 @@ export default function ContactArea() {
 								</svg>
 								<div>
 									<h5 className="text-xl font-semibold mb-1">Phone</h5>
-									<a href="#f">+88013445522</a>
+									<a href="tel:+8801679383667">+8801679383667</a>
 								</div>
 							</li>
 							<li className="flex gap-4 mb-6">
@@ -74,7 +81,7 @@ export default function ContactArea() {
 									<h5 className="text-xl font-semibold mb-1">
 										Address
 									</h5>
-									<a href="#fs">Dhaka, Bangladesh</a>
+									<a href="https://goo.gl/maps/SHkRe94QMEhs8iKRA">Dhaka, Bangladesh</a>
 								</div>
 							</li>
 						</ul>
@@ -84,7 +91,7 @@ export default function ContactArea() {
 							Get in touch
 						</h4>
 						<p>We will catch you as early as we receive the message</p>
-						<form action="" className="mt-6">
+						<form onSubmit={handleSubmitForm} className="mt-6">
 							<div className="flex gap-8">
 								<div className="w-1/2">
 								<input type="text" className="p-2 border-b-2 border-gray-400 w-full text-black" placeholder="Your Name" />
