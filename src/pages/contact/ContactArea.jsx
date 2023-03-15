@@ -80,27 +80,27 @@ export default function ContactArea() {
 						</ul>
 					</div>
 					<div className="p-6">
-            <h4 className="text-blue font-semibold text-4xl font-poppins mb-3">
+						<h4 className="text-blue font-semibold text-4xl font-poppins mb-3">
 							Get in touch
 						</h4>
-            <p>We will catch you as early as we receive the message</p>
-            <form action="" className="mt-6">
-              <div className="flex gap-8">
-                <div className="w-1/2">
-                  <input type="text" className="p-2 border-b-2 border-gray-400 w-full text-black" placeholder="Your Name" />
-                </div>
-                <div className="w-1/2">
-                  <input type="email" className="p-2 border-b-2 border-gray-400 w-full text-black" placeholder="Your Email" />
-                </div>
-              </div>
-              <div className="mt-4">
-                  <textarea rows="4" className="p-2 border-b-2 border-gray-400 w-full text-black" placeholder="How can we help you?"></textarea>
-              </div>
-              <div className="mt-8">
-                <button type="submit" className="btn btn-pink px-12">Submit</button>
-              </div>
-            </form>
-          </div>
+						<p>We will catch you as early as we receive the message</p>
+						<form action="" className="mt-6">
+							<div className="flex gap-8">
+								<div className="w-1/2">
+								<input type="text" className="p-2 border-b-2 border-gray-400 w-full text-black" placeholder="Your Name" />
+								</div>
+								<div className="w-1/2">
+								<input type="email" className="p-2 border-b-2 border-gray-400 w-full text-black" placeholder="Your Email" />
+								</div>
+							</div>
+							<div className="mt-4">
+								<textarea rows="4" className="p-2 border-b-2 border-gray-400 w-full text-black" placeholder="How can we help you?"></textarea>
+							</div>
+							<div className="mt-8">
+								<button type="submit" className="btn btn-pink px-12">Submit</button>
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</section>
