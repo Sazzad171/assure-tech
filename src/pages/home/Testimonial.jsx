@@ -23,8 +23,7 @@ export default function Testimonial() {
                 <Swiper slidesPerView={1}>
                   <SwiperSlide>
                     <p className='mb-6'>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed libero explicabo voluptate, dolorum tempora maxime id ad, voluptatum velit quidem placeat assumenda voluptatibus! Nisi molestiae facilis ipsam nulla totam asperiores!
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed libero explicabo voluptate, dolorum tempora maxime id ad, voluptatum velit quidem placeat assumenda voluptatibus! Nisi molestiae facilis ipsam nulla totam asperiores!
+                      I take their service and they are mostly responsible. Recommend their for digital products.
                     </p>
                     <div className="flex items-center gap-4">
                       <div>
@@ -32,37 +31,7 @@ export default function Testimonial() {
                       </div>
                       <div>
                         <h5 className='text-blue text-xl font-bold mb-1'>Mrs. Anika</h5>
-                        <p className='text-base'>CEO of ABC Company Ltd.</p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <p className='mb-6'>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed libero explicabo voluptate, dolorum tempora maxime id ad, voluptatum velit quidem placeat assumenda voluptatibus! Nisi molestiae facilis ipsam nulla totam asperiores!
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed libero explicabo voluptate, dolorum tempora maxime id ad, voluptatum velit quidem placeat assumenda voluptatibus! Nisi molestiae facilis ipsam nulla totam asperiores!
-                    </p>
-                    <div className="flex items-center gap-4">
-                      <div>
-                        <img src={ userImg } alt="user" className='w-20 h-20 rounded-full object-cover' />
-                      </div>
-                      <div>
-                        <h5 className='text-blue text-xl font-bold mb-1'>Mrs. Anika</h5>
-                        <p className='text-base'>CEO of ABC Company Ltd.</p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <p className='mb-6'>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed libero explicabo voluptate, dolorum tempora maxime id ad, voluptatum velit quidem placeat assumenda voluptatibus! Nisi molestiae facilis ipsam nulla totam asperiores!
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed libero explicabo voluptate, dolorum tempora maxime id ad, voluptatum velit quidem placeat assumenda voluptatibus! Nisi molestiae facilis ipsam nulla totam asperiores!
-                    </p>
-                    <div className="flex items-center gap-4">
-                      <div>
-                        <img src={ userImg } alt="user" className='w-20 h-20 rounded-full object-cover' />
-                      </div>
-                      <div>
-                        <h5 className='text-blue text-xl font-bold mb-1'>Mrs. Anika</h5>
-                        <p className='text-base'>CEO of ABC Company Ltd.</p>
+                        <p className='text-base'>CEO of HB Group Ltd.</p>
                       </div>
                     </div>
                   </SwiperSlide>

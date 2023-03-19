@@ -36,7 +36,7 @@ export default function ServiceSection() {
               <img src={ service2 } alt="service" className="w-24 h-auto mb-10 mx-auto" />
             </div>
             <h4 className='font-semibold text-blue text-2xl leading-8 font-poppins mb-3'>Negotiation and power</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p className='mb-5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             <p>
               <a href="#fd" className='flex items-center justify-center font-medium font-poppins'>Book Now
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2">
@@ -51,7 +51,7 @@ export default function ServiceSection() {
               <img src={ service3 } alt="service" className="w-24 h-auto mb-10 mx-auto" />
             </div>
             <h4 className='font-semibold text-blue text-2xl leading-8 font-poppins mb-3'>Creative and innovative solutions</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p className='mb-5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             <p>
               <a href="#fd" className='flex items-center justify-center font-medium font-poppins'>Book Now
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2">
@@ -66,7 +66,7 @@ export default function ServiceSection() {
               <img src={ service4 } alt="service" className="w-24 h-auto mb-10 mx-auto" />
             </div>
             <h4 className='font-semibold text-blue text-2xl leading-8 font-poppins mb-3'>Trasparency and ease of work</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p className='mb-5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             <p>
               <a href="#fd" className='flex items-center justify-center font-medium font-poppins'>Book Now
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2">

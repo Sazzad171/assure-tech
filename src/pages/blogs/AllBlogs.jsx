@@ -5,12 +5,12 @@ import BlogImg from '../../assets/img/blogs/blog-dg-3.jpg';
 
 export default function AllBlogs() {
   return (
-    <section className='pt-20 pb-20'>
+    <section className='lg:py-20 py-8'>
       <div className="container max-w-6xl mx-auto px-3">
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
           <div className="shadow rounded-xl overflow-hidden">
             <div className='w-full h-48'>
-              <a href="#df">
+              <a href="#details">
                 <img src={BlogImg} alt="blog img" className="w-full h-full object-cover" />
               </a>
             </div>
@@ -37,7 +37,7 @@ export default function AllBlogs() {
 
             <div className='px-6 pt-5 pb-7'>
               <h4 className='text-blue font-semibold text-2xl font-poppins mb-3'>
-                <a href="#f">Best technology for Web Development</a>
+                <a href="#details">Best technology for Web Development</a>
               </h4>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>

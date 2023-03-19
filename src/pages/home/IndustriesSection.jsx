@@ -21,7 +21,7 @@ export default function IndustriesSection() {
             <p className="uppercase text-pink mb-3">industries we work for</p>
             <h2 className="text-blue font-semibold text-4xl font-poppins mb-6">Helping Businesses in All Domains</h2>
             <p className='mb-8'>
-              Successfully delivered digital products Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              We are here for help all domains business. Just tell us which industries application you needs.
             </p>
           </div>
           <div>

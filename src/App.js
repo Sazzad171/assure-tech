@@ -12,6 +12,7 @@ import Services from "./pages/services/Index";
 import Products from "./pages/products/Index";
 import Blogs from "./pages/blogs/Index";
 import Contact from "./pages/contact/Index";
+import ComingSoon from "./pages/coming-soon/index";
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
 
           {/* contact route */}
           <Route path="/contact" element={ <Contact /> } />
+
+          {/* coming soon route */}
+          <Route path="/coming-soon" element={ <ComingSoon /> } />
 
         </Routes>
       </main>

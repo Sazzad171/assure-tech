@@ -17,7 +17,7 @@ export default function TechnologyUsed() {
           <div className='flex items-center h-full bg-white rounded-full px-6 py-5 shadow-lg border-4 border-solid border-white hover:border-zinc-200'>
             <img src={Technology1} alt="technology img" className='w-100 h-auto' />
           </div>
-          <div className='flex items-center h-full bg-white rounded-full px-6 py-5 shadow-lg border-4 border-solid border-white hover:border-zinc-200'>
+          <div className='flex items-center h-full bg-white rounded-full px-2 py-2 shadow-lg border-4 border-solid border-white hover:border-zinc-200'>
             <img src={Technology2} alt="technology img" className='w-100 h-auto' />
           </div>
           <div className='flex items-center h-full bg-white rounded-full px-6 py-5 shadow-lg border-4 border-solid border-white hover:border-zinc-200'>

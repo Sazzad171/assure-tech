@@ -31,9 +31,11 @@ export default function Index() {
   return (
     <header className={`py-5 fixed top-0 left-0 right-0 z-[1000] transition-none ${scrolled ? 'bg-sky-100 shadow-sm' : ''}`}>
         <div className="container max-w-full md:px-4 lg:px-6 px-2">
-            <div className="grid lg:grid-cols-[2fr_5fr] grid-cols-2 items-center gap-5">
+            <div className="grid lg:grid-cols-[2fr_5fr] grid-cols-[4fr_1fr] items-center gap-5">
                 <div>
-                    <h3 className="font-bold text-3xl font-poppins text-slate-800">Niwax.</h3>
+                    <h3 className="font-bold text-3xl font-poppins text-slate-800">
+                        <Link to="/">Assure Tech BD.</Link>
+                    </h3>
                 </div>
                 <div className='lg:block hidden'>
                     <ul className='text-right'>

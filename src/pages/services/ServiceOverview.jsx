@@ -21,7 +21,7 @@ export default function ServiceOverview() {
             <p className="uppercase text-pink mb-3">overview</p>
             <h2 className="text-blue font-semibold text-4xl font-poppins mb-6">Premium Web Development Service</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. is simply dummy text of the printing and typesetting industry.
+              Our primary goal is to provide our clients with high-quality web development services that are tailored to meet their specific needs. Our service overview includes a wide range of services that are designed to help businesses achieve their online goals and reach their target audience.
             </p>
           </div>
         </div>

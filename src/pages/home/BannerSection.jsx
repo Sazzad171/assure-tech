@@ -1,5 +1,6 @@
 import React from 'react';
 import bannerImg from '../../assets/img/home/hero-image.png';
+import { Link } from 'react-router-dom';
 
 export default function BannerSection() {
   return (
@@ -10,10 +11,10 @@ export default function BannerSection() {
           <div>
             <h2 className='text-blue font-bold font-poppins lg:text-[52px] text-4xl lg:leading-[60px] leading-10 lg:mb-8 mb-6'>Creative Web <br /> Development <br /> Company</h2>
             <p className='lg:text-xl text-base leading-7 mb-8'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus, risus sit amet auctor sodales, justo erat tempor eros.
+              We are a Web Development based IT company in Bangladesh who provides top quality service.
             </p>
             <p>
-              <a href="#fds" className="btn btn-pink">View Products</a>
+              <Link to="/products" className="btn btn-pink">View Products</Link>
             </p>
           </div>
           <div className='lg:block hidden'>

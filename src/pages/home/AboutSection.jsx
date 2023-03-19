@@ -15,10 +15,12 @@ export default function AboutSection() {
             <p className="uppercase text-pink mb-3">We are creative agency</p>
             <h2 className="text-blue font-semibold text-4xl font-poppins mb-6">About Agency</h2>
             <p className='mb-8'>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. is simply dummy text of the printing and typesetting industry.
+              At our web development agency, we pride ourselves on providing top-notch web development services that meet the needs of our clients. We have a team of experienced web developers who are skilled in a variety of programming languages, including HTML, CSS, JavaScript, PHP, and more.
+              <br />
+              We work closely with our clients to understand their business goals, target audience, and desired outcomes.
             </p>
             <p className="font-medium font-poppins px-5 py-6 bg-slate-100 border-l-4 border-[#e60072]">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+              Our web development agency is committed to providing high-quality web development services that meet the needs of our clients. We take pride in our work and are dedicated to helping our clients succeed online.
             </p>
           </div>
         </div>

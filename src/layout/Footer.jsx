@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Index() {
   return (
@@ -9,7 +10,7 @@ export default function Index() {
                 <div className="grid lg:grid-cols-[1fr_1fr_1fr_1fr] grid-cols-1 lg:gap-5 gap-2">
                     <div>
                         <h3 className="text-blue text-3xl font-bold font-poppins mb-3">Assure Tech BD.</h3>
-                        <p className=' text-gray-700'>News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <p className=' text-gray-700'>We are a Web Development based IT company in Bangladesh who provides top quality service.</p>
                     </div>
                     <div>
                         <h5 className="text-blue font-medium font-poppins text-2xl mb-3">Contact Us</h5>
@@ -20,7 +21,7 @@ export default function Index() {
 								</svg>
 								<div>
 									<h5 className="text-xl font-semibold">Email</h5>
-									<a href="#ds">info@test.com</a>
+									<a href="#ds">assuretechbd@gmail.com</a>
 								</div>
 							</li>
 							<li className='flex gap-3 mb-3'>
@@ -29,7 +30,7 @@ export default function Index() {
 								</svg>
 								<div>
 									<h5 className="text-xl font-semibold">Phone</h5>
-									<a href="#f">+88013445522</a>
+									<a href="#f">+8801679383667</a>
 								</div>
 							</li>
 							<li className='flex gap-3 mb-3'>
@@ -48,27 +49,27 @@ export default function Index() {
 						<h5 className="text-blue font-medium font-poppins text-2xl mb-3">Company</h5>
 						<ul>
 							<li className='mb-2'>
-								<a href="#d">Contact</a>
+								<Link to="/contact">Contact</Link>
 							</li>
 							<li className='mb-2'>
-								<a href="#d">About Us</a>
+								<Link to="/about">About Us</Link>
 							</li>
 							<li className='mb-2'>
-								<a href="#d">Our Company</a>
+								<Link to="/about">Our Company</Link>
 							</li>
 						</ul>
                     </div>
                     <div>
-						<h5 className="text-blue font-medium font-poppins text-2xl mb-3">Privacy & Policy</h5>
+						<h5 className="text-blue font-medium font-poppins text-2xl mb-3">Our Policy</h5>
 						<ul>
 							<li className='mb-2'>
-								<a href="#d">Terms of use</a>
+								<Link to="/coming-soon">Terms of use</Link>
 							</li>
 							<li className='mb-2'>
-								<a href="#d">Privacy policy</a>
+								<Link to="/coming-soon">Privacy policy</Link>
 							</li>
 							<li className='mb-2'>
-								<a href="#d">Refund policy</a>
+								<Link to="/coming-soon">Refund policy</Link>
 							</li>
 						</ul>
                     </div>
@@ -78,7 +79,7 @@ export default function Index() {
 
         {/* footer bottom */}
         <div className='pt-4 pb-4 bg-gray-100'>
-            <p className="text-center font-medium">&copy; 2022-2023. All Rights Reserved by <span className='text-sky-700'>Assure Tech BD.</span></p>
+            <p className="text-center font-medium">&copy; { new Date().getFullYear() }. All Rights Reserved by <span className='text-sky-700'>Assure Tech BD.</span></p>
         </div>
     </footer>
   )

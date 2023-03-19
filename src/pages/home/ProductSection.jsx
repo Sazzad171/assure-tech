@@ -20,9 +20,9 @@ export default function ProductSection() {
               <img src={ prod1 } alt="product img" className="w-full h-auto rounded-xl shadow-lg mb-6" />
             </a>
             <h5 className="text-blue font-poppins font-semibold text-2xl mb-2">
-              <a href="#e">Creative App</a>
+              <a href="#e">Creative Website</a>
             </h5>
-            <p>Mobile App</p>
+            <p>Web App</p>
           </div>
           <div>
             <a href="#ed">
@@ -50,9 +50,9 @@ export default function ProductSection() {
               <img src={ prod1 } alt="product img" className="w-full h-auto rounded-xl shadow-lg mb-6" />
             </a>
             <h5 className="text-blue font-poppins font-semibold text-2xl mb-2">
-              <a href="#e">Creative App</a>
+              <a href="#e">Creative Website</a>
             </h5>
-            <p>Mobile App</p>
+            <p>Web App</p>
           </div>
         </div>
       </div>
