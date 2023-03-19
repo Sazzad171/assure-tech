@@ -6,7 +6,7 @@ import prod2 from '../../assets/img/home/prod-2.jpg';
 
 export default function ProductSection() {
   return (
-    <section className="home-product py-24 relative before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-[380px]
+    <section className="home-product lg:py-24 py-16 relative before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-[380px]
        before:z-[-1]">
       <div className="container max-w-6xl mx-auto px-2">
         <div className='mb-14'>
@@ -14,7 +14,7 @@ export default function ProductSection() {
           <h2 className="text-blue font-semibold text-4xl font-poppins text-center">Our Latest Creative Work</h2>
         </div>
 
-        <div className="grid grid-cols-[2fr_1fr] gap-6 mb-8">
+        <div className="grid lg:grid-cols-[2fr_1fr] grid-1 gap-6 mb-8">
           <div>
             <a href="#ed">
               <img src={ prod1 } alt="product img" className="w-full h-auto rounded-xl shadow-lg mb-6" />
@@ -35,7 +35,7 @@ export default function ProductSection() {
           </div>
         </div>
 
-        <div className="grid grid-cols-[1fr_2fr] gap-6 mb-6">
+        <div className="grid lg:grid-cols-[1fr_2fr] grid-cols gap-6 mb-6">
           <div>
             <a href="#ed">
               <img src={ prod2 } alt="product img" className="w-full h-auto rounded-xl shadow-lg mb-6" />

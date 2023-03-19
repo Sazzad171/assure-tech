@@ -8,9 +8,9 @@ import icon4 from '../../assets/img/home/customer-service.png';
 
 export default function CounterSection() {
   return (
-    <section className='py-24 bg-[linear-gradient(to_bottom,#c7ecff_0,#f9efff_100%)]'>
+    <section className='lg:py-24 py-16 bg-[linear-gradient(to_bottom,#c7ecff_0,#f9efff_100%)]'>
         <div className="container max-w-6xl mx-auto px-2">
-            <div className="grid grid-cols-[1fr_1fr_1fr_1fr] gap-6">
+            <div className="grid lg:grid-cols-[1fr_1fr_1fr_1fr] grid-cols-1 gap-6">
                 <div className='flex items-center'>
                   <div className='h-[80px] w-[80px] bg-white rounded-tl-2xl rounded-br-2xl rounded-tr-[36px] rounded-bl-[36px] p-4'>
                     <img src={ icon1 } alt="icon" className="max-w-full h-auto" />

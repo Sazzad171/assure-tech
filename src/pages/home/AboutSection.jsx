@@ -5,9 +5,9 @@ import AboutImg from '../../assets/img/home/about-image.png';
 
 export default function AboutSection() {
   return (
-    <section className='home-about py-24'>
+    <section className='home-about lg:py-24 py-12'>
       <div className="container max-w-6xl mx-auto px-2">
-        <div className="grid grid-cols-[1fr_1fr] gap-5 items-center">
+        <div className="grid lg:grid-cols-[1fr_1fr] grid-cols-1 gap-5 items-center">
           <div>
               <img src={ AboutImg } alt="about img" className="max-w-full h-auto" />
           </div>

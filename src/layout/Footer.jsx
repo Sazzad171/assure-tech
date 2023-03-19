@@ -4,9 +4,9 @@ export default function Index() {
   return (
     <footer>
         {/* footer top */}
-        <div className="pt-12 pb-12 bg-gray-50">
+        <div className="lg:py-12 py-8 bg-gray-50">
             <div className="container max-w-7xl mx-auto px-2">
-                <div className="grid grid-cols-[1fr_1fr_1fr_1fr] gap-5">
+                <div className="grid lg:grid-cols-[1fr_1fr_1fr_1fr] grid-cols-1 lg:gap-5 gap-2">
                     <div>
                         <h3 className="text-blue text-3xl font-bold font-poppins mb-3">Assure Tech BD.</h3>
                         <p className=' text-gray-700'>News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>

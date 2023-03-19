@@ -5,13 +5,13 @@ export default function ContactArea() {
 	const handleSubmitForm = (e) => {
 		e.preventDefault();
 
-		alert("Working is going on!");
+		alert("Thank you for your interest!");
 	}
 
 	return (
-		<section className="pt-20 pb-20">
+		<section className="py-10 lg:py-20">
 			<div className="container max-w-6xl mx-auto px-2">
-				<div className="grid grid-cols-[2fr_3fr]">
+				<div className="grid lg:grid-cols-[2fr_3fr] grid-cols-1">
 					<div className="bg-green-100 p-6">
 						<h4 className="text-blue font-semibold text-3xl font-poppins mb-4">
 							Contact Information
@@ -94,14 +94,14 @@ export default function ContactArea() {
 						<form onSubmit={handleSubmitForm} className="mt-6">
 							<div className="flex gap-8">
 								<div className="w-1/2">
-								<input type="text" className="p-2 border-b-2 border-gray-400 w-full text-black" placeholder="Your Name" />
+									<input type="text" className="p-2 border-b-2 border-gray-400 w-full text-black" placeholder="Your Name" required />
 								</div>
 								<div className="w-1/2">
-								<input type="email" className="p-2 border-b-2 border-gray-400 w-full text-black" placeholder="Your Email" />
+									<input type="email" className="p-2 border-b-2 border-gray-400 w-full text-black" placeholder="Your Email" required />
 								</div>
 							</div>
 							<div className="mt-4">
-								<textarea rows="4" className="p-2 border-b-2 border-gray-400 w-full text-black" placeholder="How can we help you?"></textarea>
+								<textarea rows="4" className="p-2 border-b-2 border-gray-400 w-full text-black" placeholder="How can we help you?" required></textarea>
 							</div>
 							<div className="mt-8">
 								<button type="submit" className="btn btn-pink px-12">Submit</button>

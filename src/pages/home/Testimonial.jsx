@@ -11,14 +11,14 @@ import userImg from '../../assets/img/home/girl2.jpg'
 
 export default function Testimonial() {
   return (
-    <section className='home-testimonial py-24 bg-no-repeat bg-contain bg-[left_center]'>
+    <section className='home-testimonial lg:py-24 py-16 bg-no-repeat bg-contain bg-[left_center]'>
         <div className="container max-w-6xl mx-auto px-2">
             <div className="flex flex-wrap items-center">
-              <div className='w-1/2 px-3'>
+              <div className='lg:w-1/2 w-full px-3'>
                 <p className="uppercase text-pink mb-3">clients Testimonial</p>
                 <h2 className="text-blue font-semibold text-4xl font-poppins">What our clients say about our Company.</h2>
               </div>
-              <div className='w-1/2 px-3'>
+              <div className='lg:w-1/2 w-full px-3'>
                 {/* sliwer slider */}
                 <Swiper slidesPerView={1}>
                   <SwiperSlide>

@@ -7,13 +7,13 @@ import SquareShapeImg from "../../assets/img/services/overview-square-shape.png"
 
 export default function ServiceOverview() {
   return (
-    <section className="pt-20 pb-20">
+    <section className="lg:py-20 py-12">
       <div className="container max-w-6xl mx-auto px-2">
-        <div className="grid grid-cols-[2fr_3fr] gap-12 items-center">
+        <div className="grid lg:grid-cols-[2fr_3fr] grid-cols-1 gap-12 items-center">
           <div>
             <div className="relative">
               <img src={OverviewImg} alt="overview img" className='w-100 h-auto rounded-2xl shadow-lg' />
-              <img src={RoundShapeImg} alt="shape img" className='absolute -bottom-14 -right-14 -z-10' />
+              <img src={RoundShapeImg} alt="shape img" className='absolute -bottom-14 lg:-right-14 -z-10' />
               <img src={SquareShapeImg} alt="shape img" className='absolute -left-14 -top-14 -z-10' />
             </div>
           </div>

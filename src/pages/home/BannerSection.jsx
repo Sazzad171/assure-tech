@@ -8,15 +8,15 @@ export default function BannerSection() {
       <div className="container max-w-6xl mx-auto relative z-10 px-2">
         <div className="grid grid-cols-[1fr_1fr] items-center gap-5 min-h-[calc(100vh-160px)]">
           <div>
-            <h2 className='text-blue font-bold font-poppins text-[52px] leading-[60px] mb-8'>Creative Web <br /> Development <br /> Company</h2>
-            <p className='text-xl leading-7 mb-8'>
+            <h2 className='text-blue font-bold font-poppins lg:text-[52px] text-4xl lg:leading-[60px] leading-10 lg:mb-8 mb-6'>Creative Web <br /> Development <br /> Company</h2>
+            <p className='lg:text-xl text-base leading-7 mb-8'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus, risus sit amet auctor sodales, justo erat tempor eros.
             </p>
             <p>
               <a href="#fds" className="btn btn-pink">View Products</a>
             </p>
           </div>
-          <div>
+          <div className='lg:block hidden'>
             <img src={bannerImg} alt="banner img" className='max-w-full h-auto' />
           </div>
         </div>

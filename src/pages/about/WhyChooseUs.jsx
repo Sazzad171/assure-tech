@@ -8,14 +8,14 @@ import service4 from '../../assets/img/home/service-ui-ux.png';
 
 export default function ServiceSection() {
   return (
-    <section className="home-service py-24 relative before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-[380px]
+    <section className="home-service lg:py-24 py-16 relative before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-[380px]
       before:bg-contain before:z-[-1]">
       <div className="container max-w-6xl mx-auto px-2">
         <div className='mb-14'>
           <p className="uppercase text-pink text-center mb-3">we are awesome</p>
           <h2 className="text-blue font-semibold text-4xl font-poppins text-center">Why Choose Us</h2>
         </div>
-        <div className="grid grid-cols-[1fr_1fr_1fr_1fr] gap-6">
+        <div className="grid lg:grid-cols-[1fr_1fr_1fr_1fr] grid-cols-1 gap-6">
           <div className='card text-center px-6 pt-10 pb-8 shadow-md rounded-lg'>
             <div>
               <img src={ service1 } alt="service" className="w-24 h-auto mb-10 mx-auto" />
